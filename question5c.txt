@@ -1,0 +1,25 @@
+a:
+//upload.wikimedia.org/wikipedia/en/thumb/e/e7/Cscr-featured.svg/20px-Cscr-featured.svg.png
+//upload.wikimedia.org/wikipedia/en/thumb/1/1b/Semi-protection-shackle.svg/20px-Semi-protection-shackle.svg.png
+//upload.wikimedia.org/wikipedia/commons/thumb/4/47/Sound-icon.svg/20px-Sound-icon.svg.png
+//upload.wikimedia.org/wikipedia/commons/thumb/a/af/Darnley_stage_3.jpg/220px-Darnley_stage_3.jpg
+//upload.wikimedia.org/wikipedia/commons/thumb/5/54/Autograph_of_Elizabeth_I_of_England.svg/125px-Autograph_of_Elizabeth_I_of_England.svg.png
+//upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Devereaux_essex4.jpg/170px-Devereaux_essex4.jpg
+//upload.wikimedia.org/wikipedia/commons/thumb/6/69/Elizabeth_I_portrait%2C_Marcus_Gheeraerts_the_Younger_c.1595.jpg/220px-Elizabeth_I_portrait%2C_Marcus_Gheeraerts_the_Younger_c.1595.jpg
+//upload.wikimedia.org/wikipedia/en/thumb/b/be/Flag_of_England.svg/32px-Flag_of_England.svg.png
+//upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/10px-OOjs_UI_icon_edit-ltr-progressive.svg.png
+//upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Elizabeth1_Phoenix.jpg/170px-Elizabeth1_Phoenix.jpg
+//upload.wikimedia.org/wikipedia/commons/thumb/2/20/Hooker-Statue.jpeg/150px-Hooker-Statue.jpeg
+//upload.wikimedia.org/wikipedia/commons/thumb/7/79/P_christianity.svg/31px-P_christianity.svg.png
+//upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/10px-OOjs_UI_icon_edit-ltr-progressive.svg.png
+/static/images/wikimedia-button.png
+/static/images/poweredby_mediawiki_88x31.png
+
+b:
+https://www.telegraph.co.uk/history/11353064/The-Tudors-had-bad-teeth-What-rot.html
+
+c:
+['The "Darnley Portrait" of Elizabeth I (', 'c.', '\u20091575', ')']
+
+d:
+['Elizabeth I', 'the Virgin Queen', 'Gloriana', 'Good Queen Bess', 'Elizabeth I of England', '^', '^', 'a', 'b', '^', '^', '^', '^', '^', '^', '^', '^', '^', '^', '^', 'a', 'b', '^', '^', '^', '^', '^', '^', '^', '^', 'a', 'b', '^', '^', '^', '^', '^', '^', 'a', 'b', '^', '^', '^', '^', '^', '^', '^', '^', '^', '^', '^', '^', '^', '^', '^', '^', '^', '^', '1', '^', '^', '^', 'a', 'b', '^', '^', '^', '^', '^', '^', '^', '^', '^', '^', '^', '^', '^', '^', '^', '^', '^', '^', '^', '^', '^', 'a', 'b', 'c', '^', '^', '^', '^', '^', '^', '^', '^', '^', '43', '^', '^', '38', '^', '^', '^', '^', '^', '^', '^', '^', '^', '^', '^', 'a', 'b', '^', 'a', 'b', 'a', 'b', 'c', '^', '^', '^', '^', '^', '^', 'a', 'b', '^', '^', 'a', 'b', '^', '^', '^', '^', '^', '^', '^', '^', '^', 'a', 'b', '^', '^', 'a', 'b', '^', 'a', 'b', 'c', '^', '^', '^', '^', '^', 'a', 'b', '^', 'a', 'b', '^', '^', '^', '^', '^', '^', '^', '^', '^', 'a', 'b', '^', 'a', 'b', 'c', '^', '^', '^', '^', 'a', 'b', 'c', '^', '^', '^', '^', 'a', 'b', '^', '^', '^', '^', '^', '^', '^', '^', '^', '^', '^', '^', '^', '^', '^', '^', '^', '^', '^', '^', 'a', 'b', '^', '^', '^', '^', '^', '^', '^', '^', '^', '^', '^', '^', '^', '^', '^', '^', '^', '^', '^', 'a', 'b', 'a', 'b', '^', '^', '^', '^', '^', '^', '^', '^', '^', '^', '^', '^', '^', '^', '^', '^', '^', '^', '^', '^', '^', '^', 'a', 'b', 'c', '^', '^', '^', '^', '^', '^', 'Elizabeth I of England', 'Elizabeth I of England', 'Elizabeth I of England', '·', '·', 'More spoken articles', 'House of Tudor', 'Born:', 'Died:', 'and', ' ', 'Queen of England', ' and ', 'Ireland', 'Monarchs of England and Scotland after the ', 'Union of the Crowns', ' from 1603', 'British monarchs after the ', 'Acts of Union 1707']

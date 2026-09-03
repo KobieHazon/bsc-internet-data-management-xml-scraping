@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<result>
+<shop name="Best Books">
+				<price>44.95</price>
+			</shop>
+
+<shop name="Books and More">
+				<price>48.95</price>
+			</shop>
+
+<shop name="Best Books">
+				<price>5.95</price>
+			</shop>
+
+<shop name="Books and More">
+				<price>6.45</price>
+			</shop>
+
+<shop name="Best Books">
+				<price>5.95</price>
+			</shop>
+
+<shop name="Best Books">
+				<price>5.95</price>
+			</shop>
+
+<shop name="Books4All">
+				<price>5.95</price>
+			</shop>
+
+<shop name="Books and More">
+				<price>5.95</price>
+			</shop>
+
+<shop name="Best Books">
+				<price>5.95</price>
+			</shop>
+
+<shop name="Books and More">
+				<price>5.45</price>
+			</shop>
+
+<shop name="Best Books">
+				<price>6.95</price>
+			</shop>
+
+<shop name="My Books">
+				<price>36.95</price>
+			</shop>
+
+<shop name="Best Books">
+				<price>36.95</price>
+			</shop>
+
+<shop name="Books and More">
+				<price>36.95</price>
+			</shop>
+
+<shop name="Books4All">
+				<price>49.95</price>
+			</shop>
+
+</result>
