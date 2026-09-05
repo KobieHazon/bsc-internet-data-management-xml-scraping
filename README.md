@@ -32,4 +32,4 @@ Install Python dependencies with:
 python3 -m pip install -r requirements.txt
 ```
 
-The validator is static and does not access the network. Original scraping scripts may require live web access if run directly.
+The validator includes strict parsing of every submitted XML file and does not access the network. Original scraping scripts may require live web access if run directly.

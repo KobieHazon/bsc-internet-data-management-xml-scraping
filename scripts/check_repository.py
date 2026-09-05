@@ -2,6 +2,7 @@
 from pathlib import Path
 import ast
 import sys
+from xml.etree import ElementTree
 
 ROOT = Path(__file__).resolve().parents[1]
 required_files = ['assignment/HW1_2018.pdf', 'question2a.DTD', 'question2c1.xml', 'question2c2.xml', 'question2c3.xml', 'question2c4.xml', 'question3b.xml', 'question5.py', 'question5b.py', 'question5a.html', 'question5c.txt']
@@ -24,6 +25,13 @@ for path in ROOT.glob("*.py"):
         ast.parse(path.read_text(encoding="utf-8", errors="ignore"), filename=str(path))
     except SyntaxError as exc:
         print(f"Python syntax check failed in {path.name}: {exc}", file=sys.stderr)
+        sys.exit(1)
+
+for path in ROOT.glob("*.xml"):
+    try:
+        ElementTree.parse(path)
+    except ElementTree.ParseError as exc:
+        print(f"Strict XML parse failed in {path.name}: {exc}", file=sys.stderr)
         sys.exit(1)
 
 text_files = [p for p in ROOT.rglob("*") if p.is_file() and p.suffix.lower() in {".py", ".md", ".csv", ".txt", ".xml", ".html", ".dtd", ".nt", ""}]
