@@ -1,6 +1,6 @@
 # Internet Data Management: XML and Web Scraping
 
-My CS BSc coursework.
+A historical archive of my CS BSc coursework.
 
 ## Project Summary
 
