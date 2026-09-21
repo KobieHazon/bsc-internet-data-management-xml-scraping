@@ -17,7 +17,7 @@ Python 3, requests, lxml, XPath, XML, DTD, HTML.
 Run:
 
 ```sh
-make check
+make test
 ```
 
 Install Python dependencies with:
@@ -27,7 +27,7 @@ uv venv
 uv pip install -r requirements.txt
 ```
 
-The validator includes strict parsing of every submitted XML file and does not access the network. Original scraping scripts may require live web access if run directly.
+The tests parse the submitted XML and execute both scraper entry points against local HTML. Live scraping is available separately with `make test-live`.
 
 ## Written answers
 
@@ -40,9 +40,9 @@ My submission with Adi Eldar is in [written-answers.pdf](solution/written-answer
 - `data/`: Input data and test fixtures.
 - `solution/`: Written answers and submitted XML files.
 - `tests/`: Executable regression tests.
-- `scripts/`: Repository checks and optional live-web tests.
+- `scripts/`: Bounded live-web tests.
 
-Run `make check` and `make test` from the repository root. The tests use local fixtures; they do not scrape live websites.
+Run `make test` from the repository root. The tests use local fixtures; they do not scrape live websites.
 
 For an explicitly selected live page, run `uv run --no-project --with-requirements requirements.txt python src/question5.py URL`. The file-output version is `src/question5b.py URL [OUTPUT]`; its default output is `run-results/question5c.txt`, not the preserved answer.
 
