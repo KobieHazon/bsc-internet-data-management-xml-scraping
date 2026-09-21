@@ -1,13 +1,13 @@
 from pathlib import Path
 
 import sys
-import requests
+import public_web
 import lxml.html
 
 output = Path(sys.argv[2]) if len(sys.argv) > 2 else Path(__file__).resolve().parents[1] / "run-results" / "question5c.txt"
 output.parent.mkdir(parents=True, exist_ok=True)
 f = output.open("w")
-req = requests.get(sys.argv[1])
+req = public_web.get(sys.argv[1])
 doc = lxml.html.fromstring(req.content)
 
 f.write('a:\n')

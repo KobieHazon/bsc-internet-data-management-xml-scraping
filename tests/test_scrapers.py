@@ -24,7 +24,7 @@ class ScraperTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as directory:
             output = Path(directory) / "answer.txt"
             for name in ("question5.py", "question5b.py"):
-                with patch("requests.get", return_value=response) as request:
+                with patch("public_web.get", return_value=response) as request:
                     with patch.object(sys, "argv", [name, "https://example.test", str(output)]):
                         with contextlib.redirect_stdout(io.StringIO()) as captured:
                             runpy.run_path(str(ROOT / "src" / name), run_name="__main__")

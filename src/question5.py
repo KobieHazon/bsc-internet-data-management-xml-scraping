@@ -1,8 +1,8 @@
 import sys
-import requests
+import public_web
 import lxml.html
 
-req = requests.get(sys.argv[1])
+req = public_web.get(sys.argv[1])
 doc = lxml.html.fromstring(req.content)
 
 print('a:')
